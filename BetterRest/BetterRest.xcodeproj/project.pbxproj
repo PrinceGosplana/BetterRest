@@ -11,6 +11,7 @@
 		952E6BA62B008A9400300D5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952E6BA52B008A9400300D5A /* ContentView.swift */; };
 		952E6BA82B008A9700300D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952E6BA72B008A9700300D5A /* Assets.xcassets */; };
 		952E6BAB2B008A9700300D5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952E6BAA2B008A9700300D5A /* Preview Assets.xcassets */; };
+		95368E012B00938800D46FAC /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95368E002B00938800D46FAC /* DateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		952E6BA52B008A9400300D5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		952E6BA72B008A9700300D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952E6BAA2B008A9700300D5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95368E002B00938800D46FAC /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				952E6BA32B008A9400300D5A /* BetterRestApp.swift */,
 				952E6BA52B008A9400300D5A /* ContentView.swift */,
+				95368E002B00938800D46FAC /* DateView.swift */,
 				952E6BA72B008A9700300D5A /* Assets.xcassets */,
 				952E6BA92B008A9700300D5A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95368E012B00938800D46FAC /* DateView.swift in Sources */,
 				952E6BA62B008A9400300D5A /* ContentView.swift in Sources */,
 				952E6BA42B008A9400300D5A /* BetterRestApp.swift in Sources */,
 			);
