@@ -30,7 +30,15 @@ struct BasicDateInputView: View {
 
                 Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1...20)
             }
+            .navigationTitle("BetterRest")
+            .toolbar {
+                Button("Calculate", action: calculateBedtime)
+            }
         }
+    }
+    
+    private func calculateBedtime() {
+        
     }
 }
 
