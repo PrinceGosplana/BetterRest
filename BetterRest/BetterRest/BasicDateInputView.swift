@@ -19,6 +19,11 @@ struct BasicDateInputView: View {
 
                 DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                     .labelsHidden()
+                
+                Text("Desired amount of sleep")
+                    .font(.headline)
+
+                Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
             }
         }
     }
